@@ -34,6 +34,47 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.project-card {
+  background-color: #132e2e;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 255, 200, 0.2);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-card h3 {
+  color: #d9e8ff;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #d0d0d0;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4efcb3;
+  color: #000;
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #36e6a0;
+}
 
 header h1 {
     font-size: 1.5rem;
